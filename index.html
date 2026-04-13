@@ -1,24 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Roblox Inside My Website</title>
+    <title>Roblox Hub</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
     <div class="logo">My<span>Roblox</span>Hub</div>
-
-    <nav>
-        <span onclick="loadPage('https://www.roblox.com')">Home</span>
-        <span onclick="loadPage('https://www.roblox.com/discover')">Discover</span>
-        <span onclick="loadPage('https://www.roblox.com/catalog')">Avatar Shop</span>
-        <span onclick="loadPage('https://www.roblox.com/develop')">Create</span>
-        <span onclick="loadPage('https://www.roblox.com/groups')">Groups</span>
-    </nav>
 </header>
 
-<iframe id="rbxFrame" src="https://www.roblox.com"></iframe>
+<div id="gameBox">
+    <h2 id="name">Loading...</h2>
+    <p id="players"></p>
+    <img id="icon" width="256">
+</div>
 
 <script src="script.js"></script>
 </body>
