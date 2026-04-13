@@ -3,40 +3,26 @@ body {
     background: #0b0b0b;
     font-family: Arial, sans-serif;
     color: white;
+    text-align: center;
+    padding: 40px;
 }
 
 header {
     background: #181818;
     padding: 12px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     border-bottom: 1px solid #333;
-}
-
-.logo {
-    font-weight: bold;
     font-size: 20px;
-    letter-spacing: 1px;
+    font-weight: bold;
 }
 
 .logo span {
     color: #00b06f;
 }
 
-nav span {
-    margin-left: 20px;
-    cursor: pointer;
-    opacity: 0.8;
-    font-size: 14px;
-}
-
-nav span:hover {
-    opacity: 1;
-}
-
-iframe {
-    width: 100%;
-    height: calc(100vh - 50px);
-    border: none;
+#gameBox {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 12px;
+    width: 400px;
+    margin: auto;
 }
